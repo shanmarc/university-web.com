@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>University Website</title>
+    <link rel="stylesheet" href="pratice mode css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b26335f18.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Practice mode web.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Practice mode web.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs for 2023</h1>
+
+    </section>
+
+
+
+    <!---------------BLOG CONTENT--------------------->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2023</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor fugit eum suscipit accusantium. Ut,
+                    fugiat. Autem, dolorum. Illum quos voluptatibus eaque rem, modi non quis. Architecto perspiciatis
+                    velit atque aut.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et esse rem sit modi sint nam
+                    distinctio! Expedita eos illo, obcaecati nihil voluptas ex quae, alias unde, facilis placeat
+                    reiciendis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique obcaecati exercitationem
+                    repudiandae ullam quis nemo sint omnis officiis, inventore porro hic sapiente vero recusandae aut
+                    excepturi vel repellat doloribus tenetur?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, impedit, harum ipsam magnam
+                    molestias, necessitatibus illo nisi ab dicta optio fugit quo error similique exercitationem
+                    voluptate doloribus quidem. Ad, veniam.</p>
+
+                    <div class="comment-box">
+                       <h3>Leave a Comment</h3>
+                       <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                       </form>
+                    
+                    </div>
+
+
+
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Civil Engineering</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Hospitality Management</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Business Management</span>
+                    <span>32</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!---------------FOOTER--------------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, pariatur. Perferendis, natus iste nostrum
+            nihil unde iure tempora recusandae molestias<br>ratione, officiis blanditiis enim ipsa provident
+            temporibus tenetur soluta.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+
+        </div>
+        <p>Made By: <b>Shan Marc Soriano </b></i> </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!------------JAVASCRIPT FOR TOGGLE MENU---------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
